@@ -1,0 +1,20 @@
+.full-width
+{
+    width: 100%
+}
+
+.bg-nav
+{
+    background-color: rgb(4, 89, 178);
+}
+
+.burger-menu-link
+{
+    padding: 0.75em;
+}
+
+.nav-shadow
+{
+    -webkit-box-shadow: 0px 2px 7px 3px rgb(180, 180, 180); 
+    box-shadow: 0px 1px 6px 3px rgb(180, 180, 180);
+}
