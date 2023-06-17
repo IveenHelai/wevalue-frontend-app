@@ -2,7 +2,7 @@ import { Box, Flex, Spacer, Link, Button, useDisclosure } from '@chakra-ui/react
 import { HamburgerIcon } from '@chakra-ui/icons';
 import "../../../styles/common.css"
 
-function Navbar() {
+export default function Navbar() {
 	const { isOpen, onOpen, onClose } = useDisclosure();
 
 	return (
@@ -43,5 +43,3 @@ function Navbar() {
 		</Box>
 	);
 }
-
-export default Navbar;

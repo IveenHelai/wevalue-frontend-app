@@ -3,11 +3,13 @@
 import Image from 'next/image'
 import styles from './page.module.css'
 import Nav from "./components/layout/Nav.jsx"
+import GlobalBreadcrumb from './components/common/GlobalBreadcrumb.jsx'
 
 export default function Home() {
   return (
-    <main className={styles.main}>
+    <main>
       <Nav />
+      <GlobalBreadcrumb />
       {/* <div className={styles.description}>
         <p>
           Get started by editing&nbsp;
